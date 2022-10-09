@@ -6,27 +6,27 @@ import { generateWAMessageFromContent } from '@adiwajshing/baileys'
 
 global.owner = [
   ['51927218325', '👑 Mystic - Creador 👑', true],
-  ['34642467703', '👑 Mystic - Collaborator 1 👑', true],
-  ['50499698072', '👑 Mystic - Collaborator 2 👑', true],
-  ['51940617554', '👑 Mystic - Collaborator 3 👑', true],
-  ['51996089079', '👑 Mystic - Collaborator 4 👑', true],
-  ['573225236629', '👑 Mystic - Collaborator 5 👑', true],
-  ['593991398786', '👑 Mystic - Collaborator 6 👑', true],
-  ['593959425714', '👑 Mystic - Collaborator 7 👑', true],
-  ['593968585283'],
-  ['5219992095479'],
-  ['5219991402134'],
-  ['5219993404349'],
-  ['5219996125657']
+  ['234642467703', '👑 Mystic - Collaborator 1 👑', true],
+  ['250499698072', '👑 Mystic - Collaborator 2 👑', true],
+  ['251940617554', '👑 Mystic - Collaborator 3 👑', true],
+  ['251996089079', '👑 Mystic - Collaborator 4 👑', true],
+  ['2573225236629', '👑 Mystic - Collaborator 5 👑', true],
+  ['2593991398786', '👑 Mystic - Collaborator 6 👑', true],
+  ['2593959425714', '👑 Mystic - Collaborator 7 👑', true],
+  ['51943272322'],
+  ['25219992095479'],
+  ['25219991402134'],
+  ['25219993404349'],
+  ['25219996125657']
 ] 
-global.suittag = ['5219993404349'] 
-global.prems = ['51995386439'] 
+global.suittag = ['51962975421'] 
+global.prems = ['51962975421'] 
 
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.author = '★Azura - Bot★'
+global.wm = '★Azura - Bot★'
+global.igfg = '★Azura - Bot★'
+global.wait = '*[❗] Cargando, espere un minuto...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -98,8 +98,8 @@ global.rpg = {
 emoticon(string) {
 string = string.toLowerCase()
 let emot = {
-level: '🏆',
-limit: '💎',
+level: '🥇',
+limit: '🪙',
 exp: '🕹️'}
 let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
 if (!results.length) return ''
