@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando...')
+console.log('✅ㅤCOMENZAMOS...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Mystic - Bot\nWhatsApp Bot MD', {
+say('Azura - Bot\nWhatsApp Bot MD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -42,7 +42,7 @@ exec: args[0],
 args: args.slice(1), })
 let p = fork()
 p.on('message', data => {
-console.log('[RECEIVED]', data)
+console.log('[ACTUALIZANDO]', data)
 switch (data) {
 case 'reset':
 p.process.kill()
