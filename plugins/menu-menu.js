@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
+//let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -16,7 +16,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, AQUI ESTAEL MENU COMPLET DE Azura - Bot 💖彡*
+*ミ💖 𝙷𝙾𝙻𝙰 ✨${taguser}✨, AQUI ESTA EL MENU COMPLETO DE Azura - Bot 💖彡*
 
 *📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 *📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
