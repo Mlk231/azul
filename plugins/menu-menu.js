@@ -507,7 +507,7 @@ mentionedJid: [m.sender],
 externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
-mediaUrl: null,
+//mediaUrl: null,
 //title: '👑 Azura - Bot 👑',
 body: null,
 //thumbnail: img,
