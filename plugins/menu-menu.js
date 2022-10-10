@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
+//let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -508,9 +508,9 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 Azura - Bot 👑',
+//title: '👑 Azura - Bot 👑',
 body: null,
-thumbnail: img,
+//thumbnail: img,
 //sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
