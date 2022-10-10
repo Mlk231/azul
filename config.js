@@ -6,20 +6,20 @@ import { generateWAMessageFromContent } from '@adiwajshing/baileys'
 
 global.owner = [
   ['51927218325', '👑 Mystic - Creador 👑', true],
-  ['234642467703', '👑 Mystic - Collaborator 1 👑', true],
-  ['250499698072', '👑 Mystic - Collaborator 2 👑', true],
-  ['251940617554', '👑 Mystic - Collaborator 3 👑', true],
-  ['251996089079', '👑 Mystic - Collaborator 4 👑', true],
-  ['2573225236629', '👑 Mystic - Collaborator 5 👑', true],
-  ['2593991398786', '👑 Mystic - Collaborator 6 👑', true],
-  ['2593959425714', '👑 Mystic - Collaborator 7 👑', true],
+  ['34642467703', '👑 Mystic - Collaborator 1 👑', true],
+  ['50499698072', '👑 Mystic - Collaborator 2 👑', true],
+  ['51940617554', '👑 Mystic - Collaborator 3 👑', true],
+  ['51996089079', '👑 Mystic - Collaborator 4 👑', true],
+  ['573225236629', '👑 Mystic - Collaborator 5 👑', true],
+  ['593991398786', '👑 Mystic - Collaborator 6 👑', true],
+  ['593959425714', '👑 Mystic - Collaborator 7 👑', true],
   ['51943272322'],
-  ['25219992095479'],
-  ['25219991402134'],
-  ['25219993404349'],
-  ['25219996125657']
+  ['5219992095479'],
+  ['5219991402134'],
+  ['5219993404349'],
+  ['5219996125657']
 ] 
-global.suittag = ['51962975421'] 
+global.suittag = ['51927218325'] 
 global.prems = ['51962975421'] 
 
 global.packname = '(☞ﾟ∀ﾟ)☞'
